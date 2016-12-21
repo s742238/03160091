@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="@drawable/food_bg"
+        app:titleTextColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="59dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:weightSum="1">
+
+                <TextView
+                    android:text="A:"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/a_text" />
+                <TextView
+                    android:text="B:"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/b_text"
+                    android:layout_weight="0.05" />
+                <TextView
+                    android:text="C:"
+                    android:layout_width="match_parent"
+                    android:layout_height="27dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/c_text" />
+                <TextView
+                    android:text="D:"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/d_text"
+                    android:layout_weight="0.01" />
+                <TextView
+                    android:text="E:"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/e_text" />
+                <TextView
+                    android:text="F:"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/f_text" />
+                <TextView
+                    android:text="G:"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/g_text" />
+                <TextView
+                    android:text="H:"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/h_text" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="161dp"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:layout_width="135dp"
+                android:id="@+id/a_edit"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:inputType="text"
+                android:layout_height="45dp" />
+
+            <EditText
+                android:layout_height="48dp"
+                android:id="@+id/b_edit"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:inputType="text"
+                android:layout_width="135dp" />
+
+            <EditText
+                android:layout_width="135dp"
+                android:layout_height="48dp"
+                android:id="@+id/c_edit"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:inputType="text"/>
+
+            <EditText
+                android:layout_width="135dp"
+                android:layout_height="48dp"
+                android:id="@+id/d_edit"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:inputType="text"/>
+
+            <EditText
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/e_edit"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:inputType="text"/>
+
+            <EditText
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/f_edit"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:inputType="text"/>
+
+            <EditText
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/g_edit"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:inputType="text"/>
+
+            <EditText
+                android:layout_width="135dp"
+                android:layout_height="48dp"
+                android:id="@+id/h_edit"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:inputType="text"/>
+        </LinearLayout>
+
+        <Button
+            android:text="確定"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:layout_weight="0.39"
+            android:layout_gravity="bottom"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:text="請依序輸入想要的店家或食物"
+        android:layout_width="match_parent"
+        android:id="@+id/input_text"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_height="20dp" />
+
+</LinearLayout>
