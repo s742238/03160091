@@ -40,10 +40,10 @@ public class input extends AppCompatActivity {
                 String b_str =b_edit.getText().toString();
                 String c_str =c_edit.getText().toString();
                 String d_str =d_edit.getText().toString();
-                String e_str =d_edit.getText().toString();
-                String f_str =d_edit.getText().toString();
-                String g_str =d_edit.getText().toString();
-                String h_str =d_edit.getText().toString();
+                String e_str =e_edit.getText().toString();
+                String f_str =f_edit.getText().toString();
+                String g_str =g_edit.getText().toString();
+                String h_str =h_edit.getText().toString();
 
                 Intent intent5 = new Intent();
                 intent5.setClass(input.this, MainActivity.class);
@@ -55,10 +55,10 @@ public class input extends AppCompatActivity {
                 bundle.putString("b_str",b_str );
                 bundle.putString("c_str",c_str );
                 bundle.putString("d_str",d_str );
-                bundle.putString("e_str",d_str );
-                bundle.putString("f_str",d_str );
-                bundle.putString("g_str",d_str );
-                bundle.putString("h_str",d_str );
+                bundle.putString("e_str",e_str );
+                bundle.putString("f_str",f_str );
+                bundle.putString("g_str",g_str );
+                bundle.putString("h_str",h_str );
 
                 //將Bundle物件assign給intent
                 intent5.putExtras(bundle);

@@ -134,15 +134,6 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-       /* me.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                String text = "";
-                text=a_str;
-                Toast.makeText(MainActivity.this, "來去吃 " + text, Toast.LENGTH_SHORT).show();
-            }
-        });*/
 
     }
 }
